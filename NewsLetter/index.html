@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter | Home</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./newsletter_illustrations.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <aside id="left-block">
+          <h1 id="stay-updated">Stay updated!</h1>
+          <p id="content-main">
+            Join 60,000+ product managers recieving monthly updates on:
+          </p>
+          <ul>
+            <li id="one-list">
+              <i
+                class="fa-solid fa-circle-check"
+                style="color: rgb(255, 98, 82)"
+              ></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Product discovery and building what
+              matters
+            </li>
+            <li id="two-list">
+              <i
+                class="fa-solid fa-circle-check"
+                style="color: rgb(255, 98, 82)"
+              ></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;Measuring to ensure updates are a success
+            </li>
+            <li id="three-list">
+              <i
+                class="fa-solid fa-circle-check"
+                style="color: rgb(255, 98, 82)"
+              ></i
+              >&nbsp;&nbsp;&nbsp;&nbsp;And much more!
+            </li>
+          </ul>
+          <br />
+          <form action="/TASK/WebDev01/thankyou.html">
+            <label id="email-address" for="email">Email address</label>
+            <br />
+            <input
+              type="email" 
+              id="email"
+              required
+              placeholder="email@company.com"
+              required
+              class="input-label-email"
+            />
+            <br />
+            <br />
+            <input
+              type="submit"
+              value="Subscribe to monthly newsletter"
+              id="submit"
+            />
+          </form>
+        </aside>
+        <aside id="right-block">
+          <img
+            src="./newsletter_illustrations.jpg"
+            alt="newsletter_ilustration-img"
+            id="image-news"
+          />
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(54, 56, 77);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(33, 37, 68);
+}
+main {
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  background-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 850px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: initial;
+}
+main section #left-block {
+  /* background-color: rgb(153, 204, 228); */
+  width: 425px;
+  height: 500px;
+}
+#stay-updated {
+  /* border: 2px solid red; */
+  font-size: 50px;
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+#content-main {
+  /* border: 3px solid blue; */
+  font-size: 15.5px;
+  padding-left: 60px;
+  padding-right: 10px;
+  margin-top: -25px;
+}
+main section #left-block ul {
+  list-style: none;
+  font-size: 15.5px;
+  padding-left: 60px;
+  padding-right: 10px;
+}
+#one-list {
+  margin-top: 20px;
+}
+#two-list {
+  margin-top: 8px;
+}
+#three-list {
+  margin-top: 8px;
+}
+
+main section #left-block #email-address {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+main section #left-block .input-label-email {
+  resize: none;
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 340px;
+  height: 55px;
+  color: rgb(90, 90, 90);
+  border-radius: 8px;
+  border: 0.5px solid grey;
+}
+#submit {
+  background-color: rgb(35, 39, 64);
+  resize: none;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 55px;
+  width: 340px;
+  color: rgb(250, 250, 250);
+  border-radius: 8px;
+}
+#submit:hover {
+  background-color: rgb(14, 18, 44);
+}
+
+/* right block */
+main section #right-block {
+  /* border: 3px solid red; */
+  border-radius: 20px;
+  width: 400px;
+  height: 550px;
+  margin-left: 440px;
+  margin-top: -500px;
+}
+#image-news {
+  align-items: center;
+  border-radius: 20px;
+  width: 350px;
+  height: 500px;
+}
